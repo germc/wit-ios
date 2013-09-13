@@ -7,6 +7,7 @@
 //
 
 #import "RBCAppDelegate.h"
+#import "RBCViewController.h"
 
 @implementation RBCAppDelegate
 
@@ -16,6 +17,9 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    _nc = [[UINavigationController alloc] initWithRootViewController:[[RBCViewController alloc] init]];
+    _nc.navigationBar.barStyle = UIBarStyleBlack;
+    self.window.rootViewController = _nc;
     return YES;
 }
 

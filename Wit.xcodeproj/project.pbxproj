@@ -19,6 +19,10 @@
 		89E5E8DE17E2971500F22448 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E5E8C617E2971500F22448 /* UIKit.framework */; };
 		89E5E8E617E2971500F22448 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89E5E8E417E2971500F22448 /* InfoPlist.strings */; };
 		89E5E8E817E2971500F22448 /* WitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E5E8E717E2971500F22448 /* WitTests.m */; };
+		89E5E8F917E297A200F22448 /* RBCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E5E8F817E297A200F22448 /* RBCViewController.m */; };
+		89E5E94617E2CD3A00F22448 /* RSBRestful.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E5E94317E2CD3A00F22448 /* RSBRestful.m */; };
+		89E5E94717E2CD3A00F22448 /* WITAI.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E5E94517E2CD3A00F22448 /* WITAI.m */; };
+		89E5E94917E2D0D000F22448 /* accessKey.secret in Resources */ = {isa = PBXBuildFile; fileRef = 89E5E94817E2D0D000F22448 /* accessKey.secret */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,13 @@
 		89E5E8E317E2971500F22448 /* WitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WitTests-Info.plist"; sourceTree = "<group>"; };
 		89E5E8E517E2971500F22448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		89E5E8E717E2971500F22448 /* WitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitTests.m; sourceTree = "<group>"; };
+		89E5E8F717E297A200F22448 /* RBCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBCViewController.h; sourceTree = "<group>"; };
+		89E5E8F817E297A200F22448 /* RBCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBCViewController.m; sourceTree = "<group>"; };
+		89E5E94217E2CD3A00F22448 /* RSBRestful.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBRestful.h; sourceTree = "<group>"; };
+		89E5E94317E2CD3A00F22448 /* RSBRestful.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBRestful.m; sourceTree = "<group>"; };
+		89E5E94417E2CD3A00F22448 /* WITAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WITAI.h; sourceTree = "<group>"; };
+		89E5E94517E2CD3A00F22448 /* WITAI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WITAI.m; sourceTree = "<group>"; };
+		89E5E94817E2D0D000F22448 /* accessKey.secret */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = accessKey.secret; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +118,15 @@
 		89E5E8C817E2971500F22448 /* Wit */ = {
 			isa = PBXGroup;
 			children = (
+				89E5E94217E2CD3A00F22448 /* RSBRestful.h */,
+				89E5E94317E2CD3A00F22448 /* RSBRestful.m */,
+				89E5E94417E2CD3A00F22448 /* WITAI.h */,
+				89E5E94517E2CD3A00F22448 /* WITAI.m */,
 				89E5E8D117E2971500F22448 /* RBCAppDelegate.h */,
 				89E5E8D217E2971500F22448 /* RBCAppDelegate.m */,
+				89E5E8F717E297A200F22448 /* RBCViewController.h */,
+				89E5E8F817E297A200F22448 /* RBCViewController.m */,
+				89E5E94817E2D0D000F22448 /* accessKey.secret */,
 				89E5E8D417E2971500F22448 /* Images.xcassets */,
 				89E5E8C917E2971500F22448 /* Supporting Files */,
 			);
@@ -222,6 +240,7 @@
 			files = (
 				89E5E8CD17E2971500F22448 /* InfoPlist.strings in Resources */,
 				89E5E8D517E2971500F22448 /* Images.xcassets in Resources */,
+				89E5E94917E2D0D000F22448 /* accessKey.secret in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +261,9 @@
 			files = (
 				89E5E8D317E2971500F22448 /* RBCAppDelegate.m in Sources */,
 				89E5E8CF17E2971500F22448 /* main.m in Sources */,
+				89E5E8F917E297A200F22448 /* RBCViewController.m in Sources */,
+				89E5E94617E2CD3A00F22448 /* RSBRestful.m in Sources */,
+				89E5E94717E2CD3A00F22448 /* WITAI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
